@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/enro-ff/zhangwodu_Tampermonkey",
+  "source_path": "main.js",
+  "userscript_version": "1.0.3",
+  "git_blob_sha1": "9ee11ba75fe0e760de4d59e98f31e5f4e5a3c819",
+  "sha256": "c28dde16889db7e7bb1c40a79b389ed0a9449f510aca2dd6c8b4c488c87139a8",
+  "license_declared_in_package_json": "ISC",
+  "license_source": "https://github.com/enro-ff/zhangwodu_Tampermonkey/blob/main/package.json",
+  "verified_on": "2026-10-29"
+}

@@ -1,0 +1,44 @@
+name: 问题反馈
+description: 报告页面适配、解析匹配、勾选或导航问题
+body:
+  - type: markdown
+    attributes:
+      value: 请先查看故障排查。不要上传 API Key、Cookie、完整登录抓包或未脱敏的课程记录。
+  - type: input
+    id: version
+    attributes:
+      label: 脚本版本
+      placeholder: 1.1.1-beta.1
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器与脚本管理器
+      placeholder: Edge / Chrome + Tampermonkey，填写版本
+    validations:
+      required: true
+  - type: dropdown
+    id: page
+    attributes:
+      label: 出错页面
+      options:
+        - 学习页 learnPage
+        - 掌握度列表
+        - 练习历史 masteryHistory
+        - 答题页
+        - 解析页 examPreview
+        - 其他
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 预期行为、实际行为及复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: 完整错误文字或已脱敏的日志
+      description: 诊断文件可能含题目、页面结构、图片网址和课程编号，上传前请检查。
+    validations:
+      required: true
